@@ -57,9 +57,10 @@ Go to the **Selective Frame Renderer** panel just below the Output settings.
 - In the header, choose **Render Result**.
 
 ### 6. Start Rendering
-- Click the **Render with Live View** button in the SFR panel.
-- The progress will show up on the cursor and the Image Editor will update per frame.
-
+---
+- `Exclude Frame Ranges` → Add/remove ranges of frames to skip.
+- `Render (Filtered)` → Renders only frames outside the excluded ranges.  
+- `Render (All)` → Renders all frames between `frame_start` and `frame_end`. 
 ---
 
 ### Example Scenario
